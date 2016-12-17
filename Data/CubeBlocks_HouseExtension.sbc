@@ -27,7 +27,7 @@
           </MountPointOverrides>
         </Model>-->
       </BuildProgressModels>
-      <CriticalComponent Subtype="Timber" Index="0" />
+      <CriticalComponent Subtype="Timber10" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="1.0324" StartY="-0.0349058621" EndX="-0.032400012" EndY="0.42989403" />
         <MountPoint Side="Front" StartX="0.7374" StartY="0.7698602" EndX="0.2626" EndY="1.02810025" />
@@ -57,7 +57,7 @@
       <CompoundTemplates>
         <Template>Universal</Template>
       </CompoundTemplates>
-      <MaxIntegrity>1500</MaxIntegrity>
+      <MaxIntegrity>600</MaxIntegrity>
       <PhysicalMaterial>Wood</PhysicalMaterial>
       <BlockVariants>
         <BlockVariant>
@@ -67,32 +67,31 @@
       </BlockVariants>
     </Definition>
 <!-- *************************   DOOR and SHUTTER DEFINTIIONS *************** -->
- <!--   <Definition xsi:type="MyObjectBuilder_MedievalDoorDefinition">
+    <Definition xsi:type="MyObjectBuilder_MedievalDoorDefinition">
       <Id>
         <TypeId>MedievalDoor</TypeId>
-        <SubtypeId>BrickFlatShutters</SubtypeId>
+        <SubtypeId>HouseHalfTimberBigWindowsShutter</SubtypeId>
       </Id>
-      <DisplayName>Brick House Window Shutters</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\PlankShutter.dds</Icon>
-      <BlockPairName>BrickFlatShutters</BlockPairName>
+      <DisplayName>Large Plank Window</DisplayName>
+      <Icon>Textures\GUI\Icons\cubes\House Half Timber Big Window.dds</Icon>
+      <BlockPairName>HouseHalfTimberBigWindowsShutter</BlockPairName>
       <Public>true</Public>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\PlankShutterFrameBrick.mwm</Model>
-      <CriticalComponent Subtype="ClayBrick" Index="0" />
+      <Model>Models\Cubes\large\House Half Timber Shutter Large.mwm</Model>
+      <CriticalComponent Subtype="Timber10" Index="0" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfTimberWindow_Construction_1.mwm">
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfTimberBigWindow_Construction.mwm">
         </Model>
       </BuildProgressModels>
       <Components>
         <Component Subtype="WoodenSticks" Count="4" />
-        <Component Subtype="ClayBrick" Count ="8" />
-        <Component Subtype="Timber10" Count ="2" />
+        <Component Subtype="Timber10" Count ="4" />
       </Components>
       <MountPoints>
         <MountPoint Side="Front" StartX="1.0324" StartY="-0.0349058621" EndX="-0.032400012" EndY="0.42989403" />
@@ -114,28 +113,29 @@
       <Direction>Horizontal</Direction>
       <Rotation>Vertical</Rotation>
       <Subparts>
-        <Subpart Name="PlankShutterBrick">
-          <HingePosition x="0.525" y="-0.248" z="-1.285"/>
+        <Subpart Name="PlankShutterLarge">
+          <HingePosition x="0.00819" y="1.01495" z="-1.28436"/>
         </Subpart>
-        <Subpart Name="PlankShutterLockBrick">
-          <HingePosition x="-0.447" y="0.265" z="-1.188"/>
+        <Subpart Name="PlankShutterLargeSupport">
+          <HingePosition x="0.01958" y="-0.1612" z="-1.16488"/>
         </Subpart>
       </Subparts>
       <OpeningSequences>
-        <Sequence Speed="80" OpenDelay="0" CloseDelay="0" Axis="Y" MaxAngle="90" InvertRotation="false">
+        <Sequence Speed="80" OpenDelay="0" CloseDelay="0" Axis="X" MaxAngle="80" InvertRotation="false">
           <Id>0</Id>
         </Sequence>
-        <Sequence Speed="180" OpenDelay="0" CloseDelay="0" Axis="Z" MaxAngle="120" InvertRotation="false">
+        <Sequence Speed="80" OpenDelay="0" CloseDelay="0" Axis="X" MaxAngle="15" InvertRotation="true">
           <Id>1</Id>
         </Sequence>
       </OpeningSequences>
       <CompoundTemplates>
         <Template>Universal</Template>
       </CompoundTemplates>
-      <MaxIntegrity>1600</MaxIntegrity>
+      <MaxIntegrity>600</MaxIntegrity>
       <AvailableInSurvival>true</AvailableInSurvival>
       <GuiVisible>true</GuiVisible>
     </Definition>
+    <!--
     <Definition xsi:type="MyObjectBuilder_MedievalDoorDefinition">
       <Id>
         <TypeId>MedievalDoor</TypeId>
@@ -189,4 +189,6 @@
       <GuiVisible>false</GuiVisible>
     </Definition> -->
   </CubeBlocks>
+  
+
 </Definitions>
