@@ -1,0 +1,17 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s Z:\Temp\space_engineers_4cjmzf0y.hko -p C:\Users\Klemens\AppData\Roaming\MedievalEngineers\Mods\DayDot.HouseExtension\Models\Cubes\large\src\exp\Scene_Large.hkt C:\Users\Klemens\AppData\Roaming\MedievalEngineers\Mods\DayDot.HouseExtension\Models\Cubes\large\src\exp\Scene_Large.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sat Dec 17 01:09:34 2016, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        [0xabbabfd2] Warning : 'Cube.004' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'Cube.003' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'Cube.002' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbabfd2] Warning : 'Cube.001' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        [0xabbaf331] Warning : 'Cube' - No shapes found. Cannot create Rigid Body.
+        Created 4 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Klemens\AppData\Roaming\MedievalEngineers\Mods\DayDot.HouseExtension\Models\Cubes\large\src\exp\Scene_Large.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 5 Warnings ==========
