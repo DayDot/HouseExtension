@@ -18,13 +18,4 @@
     <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\block_sheet_ng.dds</Parameter>
     <Parameter Name="AddMapsTexture">Textures\Models\Cubes\block_sheet_add.dds</Parameter>
   </Material>
-  <Material Name="shutter.002">
-    <Parameter Name="SpecularIntensity">0</Parameter>
-    <Parameter Name="SpecularPower">1.960784</Parameter>
-    <Parameter Name="DiffuseColorX">255</Parameter>
-    <Parameter Name="DiffuseColorY">255</Parameter>
-    <Parameter Name="DiffuseColorZ">255</Parameter>
-    <Parameter Name="Technique">MESH</Parameter>
-    <Parameter Name="DiffuseTexture">Textures\Models\Cubes\block_sheet_de.dds</Parameter>
-  </Material>
 </Model>
