@@ -18,7 +18,7 @@
     <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\block_sheet_ng.dds</Parameter>
     <Parameter Name="AddMapsTexture">Textures\Models\Cubes\block_sheet_add.dds</Parameter>
   </Material>
-  <Material Name="BlockSheet.005">
+  <Material Name="BlockSheet">
     <Parameter Name="SpecularIntensity">0</Parameter>
     <Parameter Name="SpecularPower">1.960784</Parameter>
     <Parameter Name="DiffuseColorX">255</Parameter>
